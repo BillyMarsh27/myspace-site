@@ -1,6 +1,44 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+}
 
 body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fafafa;
+  color: #111111;
+}
+
+.page-shell {
   min-height: 100vh;
-  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><text y='24' font-size='24'>🦊</text></svg>") 16 16, auto;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.blank-page {
+  text-align: center;
+  padding: 48px 32px;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.blank-page h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+}
+
+.blank-page p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555555;
 }
