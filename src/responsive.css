@@ -1,0 +1,107 @@
+/* Responsive layout for different screen sizes */
+
+@media (max-width: 1100px) {
+  .torso {
+    width: 90%;
+    padding: 40px 28px;
+    margin-bottom: 200px;
+  }
+
+  .poemdiv {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .page-shell {
+    padding: 18px;
+  }
+
+  .torso {
+    width: 100%;
+    padding: 32px 20px;
+    margin-bottom: 140px;
+  }
+
+  .poemdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .poemdiv p,
+  .alsopoem,
+  .poem {
+    width: 100%;
+  }
+
+  .auname {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .disclaimer,
+  .textp {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    margin-top: 0;
+  }
+
+  .page-shell {
+    padding: 12px;
+  }
+
+  .torso {
+    padding: 24px 14px;
+    margin-bottom: 90px;
+  }
+
+  .auname {
+    font-size: 2.4rem;
+  }
+
+  .discc {
+    font-size: 1.7rem;
+  }
+
+  .disclaimer,
+  .textp,
+  .poemdiv {
+    font-size: 0.88rem;
+    line-height: 1.7;
+  }
+
+  .poemdiv {
+    gap: 14px;
+  }
+
+  .poemdiv p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .auname {
+    font-size: 2rem;
+  }
+
+  .discc {
+    font-size: 1.4rem;
+  }
+
+  .torso {
+    padding: 18px 12px;
+  }
+
+  .textp,
+  .disclaimer,
+  .poemdiv {
+    font-size: 0.8rem;
+  }
+}

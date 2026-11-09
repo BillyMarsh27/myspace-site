@@ -1,3 +1,39 @@
+/* aclonica-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/aclonica-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eagle-lake-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Eagle Lake';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/eagle-lake-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* angkor-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Angkor';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/angkor-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* amatic-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/amatic-sc-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,11 +44,14 @@ html, body, #root {
   min-height: 100vh;
 }
 
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #fafafa;
   color: #111111;
+  background-color: #6c4423;
+  margin-top: -24px;
 }
 
 .page-shell {
@@ -22,23 +61,59 @@ body {
   padding: 24px;
 }
 
-.blank-page {
+.torso {
   text-align: center;
   padding: 48px 32px;
-  border: 1px solid #e5e5e5;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  /* border: 1px solid #e5e5e5; */
+  /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04); */
+  margin-bottom: 600px;
+  width: 1000px;
+  background-color: #c0a189;
 }
 
-.blank-page h1 {
-  margin: 0 0 12px;
-  font-size: clamp(2rem, 5vw, 4rem);
+.torso h1 {
   font-weight: 700;
 }
 
-.blank-page p {
-  margin: 0;
-  font-size: 1rem;
-  color: #555555;
+.auname {
+   font-family: 'Amatic SC';
+   text-align: left;
+}
+
+.discc {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.disclaimer {
+text-align: left;
+font-family: 'Angkor';
+}
+
+.poemdiv {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  max-width: 900px;
+  font-family: 'Aclonica';
+  text-align: left;
+  margin-top: 50px;
+  font-weight: 900;
+  margin-left: 45px;
+}
+
+.poemend {
+  text-align: center;
+  font-family: 'Aclonica';
+}
+
+.textp {
+  font-family: 'Aclonica';
+  text-align: left;
+  font-size: 15px;
+}
+
+.textp p {
+  font-weight: 700;
 }
