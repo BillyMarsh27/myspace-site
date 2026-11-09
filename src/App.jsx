@@ -5,7 +5,7 @@ export default function App() {
       <div className="torso">
         <h1 className="auname">William Marsh</h1>
         <h1 className="discc">
-          DISCLAIMER!
+          DISCLAIMER!!
         </h1>
         <h4 className="disclaimer">
           I don't really think this one is a poem. I wrote it when I was bored and could not get any ideas. I couldn't express what I wanted to say anyways and I know it looks stupid and no ryhyme but I just can't explain more than this.``
