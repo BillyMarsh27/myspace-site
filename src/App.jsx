@@ -10,7 +10,7 @@ export default function App() {
         <h4 className="disclaimer">
           I don't really think this one is a poem. I wrote it when I was bored and could not get any ideas. I couldn't express what I wanted to say anyways and I know it looks stupid and no ryhyme but I just can't explain more than this.``
         </h4>
-        <div className="poemdiv">
+        {/* <div className="poemdiv">
           <p className="poem">
             Have you ever been to been to middle world? <br />
             Not this foolish first one, <br />
@@ -54,7 +54,7 @@ export default function App() {
            Well... I have never seen sunshine without sun itself... Though I apologize I have kept it here from you only to make it rot(your own fault)... <br />
            Please, take it back...
 
-        </p>
+        </p> */}
 
       </div>
 
