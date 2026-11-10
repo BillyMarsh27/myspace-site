@@ -55,7 +55,9 @@ export default function App() {
            Please, take it back...
 
         </p> */}
-
+        <p className="sepoem">
+          I think the greatest punishment that was given to humans by God is that we are souls... If we were just bodies and fell in love, we could just say that we have fallen for their appearance or body... but we are souls... how are we supposed to explain that the way they live and see the world is the thing that attracted us? How am I supposed to explain that I don't even know what I have fallen for in that another soul which I have never even seen and don't even know their true personality? How am I supposed to explain that something is just pulling me towards that soul? My body of course hates it... Hates how it is being hurt for something that doesn't even satisfy it... For something it doesn't even care about...
+        </p>
       </div>
 
     </main>

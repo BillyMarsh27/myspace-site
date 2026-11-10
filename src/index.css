@@ -116,3 +116,9 @@ font-family: 'Angkor';
 .textp p {
   font-weight: 700;
 }
+
+.sepoem {
+  font-family: 'Aclonica';
+  text-align: center;
+  font-size: 15px;
+}
